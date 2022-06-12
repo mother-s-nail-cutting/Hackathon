@@ -1,4 +1,4 @@
-var WeatherHokkaidou{
+var weatherHokkaidou{
   var request = new XMLHttpRequest();
      id = 011000;
      URL = 'https:weather.tsukumijima.net/api/forecast/city=id&dateLabel = "明日"&chanceOfRain=T12_18';
