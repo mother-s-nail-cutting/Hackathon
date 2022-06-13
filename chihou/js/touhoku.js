@@ -20,3 +20,4 @@ display('https:weather.tsukumijima.net/api/forecast?city=030010','iwate'); //岩
 display('https:weather.tsukumijima.net/api/forecast?city=040010','miyagi'); //宮城
 display('https:weather.tsukumijima.net/api/forecast?city=050010','akita'); //秋田
 display('https:weather.tsukumijima.net/api/forecast?city=060010','yamagata'); //山形
+display('https:weather.tsukumijima.net/api/forecast?city=070010','hukusima'); //福島
