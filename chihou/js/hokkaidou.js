@@ -4,7 +4,10 @@
      URL = 'https:weather.tsukumijima.net/api/forecast?city=id&dateLabel = "明日"&chanceOfRain=T12_18';
      request.open('GET', URL, true);
      request.responseType = 'json'
-      console.log("こんにちわ");
+     request.onload = function(){
+       const date = this.response;
+       console.log(date.chanceOfRain);
+     }
 
       request.send();
 /*  display: function(syuu[]) {  // 匿名関数でメソッド定義
