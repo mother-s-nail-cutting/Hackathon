@@ -14,7 +14,11 @@ function display(URL) {
 request.send();
  }
 
-display('https:weather.tsukumijima.net/api/forecast?city=011000'); //道北
-display('https:weather.tsukumijima.net/api/forecast?city=013010'); //道東
-display('https:weather.tsukumijima.net/api/forecast?city=015010'); //道南
-display('https:weather.tsukumijima.net/api/forecast?city=016010'); //道央
+ display('https:weather.tsukumijima.net/api/forecast?city=400010','hukuoka'); //福岡
+ display('https:weather.tsukumijima.net/api/forecast?city=410010','saga'); //佐賀
+ display('https:weather.tsukumijima.net/api/forecast?city=420010','nagasaki'); //長崎
+ display('https:weather.tsukumijima.net/api/forecast?city=430010','kumamoto'); //熊本
+ display('https:weather.tsukumijima.net/api/forecast?city=440010','ooita'); //大分
+ display('https:weather.tsukumijima.net/api/forecast?city=450010','miyazaki'); //宮崎
+ display('https:weather.tsukumijima.net/api/forecast?city=460010','kagoshima'); //鹿児島
+ display('https:weather.tsukumijima.net/api/forecast?city=471010','okinawa'); //沖縄
