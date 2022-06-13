@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+  background: linear-gradient(white, black);
+  /* background-image: url(犬_01.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: dimgray;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: "Kokoro";
+}
+
+ul {
+  display: flex;
+  font-family: "Kokoro";
+}
+
+li {
+  list-style: none;
+  font-family: "Kokoro";
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+  font-family: "Kokoro";
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Kokoro";
+}
+
+.topNavigation {
+  height: 70px;
+  text-align: center;
+  background-color: #888;
+  color: #fff;
+  font-family: "Kokoro";
+}
+
+.content {
+  background-color: #eee;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Kokoro";
+}
+
+h1 {
+  color: #0bd;
+  text-align: center;
+  font-family: "Kokoro";
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Kokoro";
+}
+
+button {
+  color: #0bd;
+  text-align: center;
+  font-family: "Kokoro";
+}
+
+.button {
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  border: 2px solid #333;
+  color: #333;
+  line-height: 48px;
+  font-family: "Kokoro";
+}
+
+.button::after {
+  top: 4px;
+  left: 4px;
+  width: 188px;
+  height: 42px;
+  border: 2px solid #333;
+  opacity: 0;
+}
+
+.button:hover::after {
+  opacity: 1;
+}
