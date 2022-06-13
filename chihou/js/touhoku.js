@@ -1,4 +1,4 @@
-function display(URL) {
+function display(URL,place) {
    var request = new XMLHttpRequest();
      request.open('GET', URL, true);
      request.responseType = 'json'
@@ -6,15 +6,17 @@ function display(URL) {
        const date = this.response.forecasts[0].chanceOfRain.T18_24;
        if(date == "0%"||date == "10%"||date == "20%"){
        console.log(date);
-       i++,
        console.log("晴れ：遊び場を全て表示する");
      }
-     else console.log("雨：降水確率20%以下のみ表示する");
+     else {document.getElementById(place).classList.add('rain');
+       console.log("雨：降水確率2１%以上");
+     }
    }
 request.send();
  }
 
-display('https:weather.tsukumijima.net/api/forecast?city=011000'); //道北
-display('https:weather.tsukumijima.net/api/forecast?city=013010'); //道東
-display('https:weather.tsukumijima.net/api/forecast?city=015010'); //道南
-display('https:weather.tsukumijima.net/api/forecast?city=016010'); //道央
+display('https:weather.tsukumijima.net/api/forecast?city=020010','aomori'); //青森
+display('https:weather.tsukumijima.net/api/forecast?city=030010','iwate'); //岩手
+display('https:weather.tsukumijima.net/api/forecast?city=040010','miyagi'); //宮城
+display('https:weather.tsukumijima.net/api/forecast?city=050010','akita'); //秋田
+display('https:weather.tsukumijima.net/api/forecast?city=060010','yamagata'); //山形
