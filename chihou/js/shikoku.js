@@ -14,8 +14,7 @@ function display(URL) {
 request.send();
  }
 
- display('https:weather.tsukumijima.net/api/forecast?city=310010','tottori'); //鳥取
- display('https:weather.tsukumijima.net/api/forecast?city=320010','shimane'); //島根
- display('https:weather.tsukumijima.net/api/forecast?city=330010','okayama'); //岡山
- display('https:weather.tsukumijima.net/api/forecast?city=340010','hiroshima'); //広島
- display('https:weather.tsukumijima.net/api/forecast?city=350010','yamaguchi'); //山口
+ display('https:weather.tsukumijima.net/api/forecast?city=360010','tokushima'); //徳島
+ display('https:weather.tsukumijima.net/api/forecast?city=370010','kagawa'); //香川
+ display('https:weather.tsukumijima.net/api/forecast?city=380010','ehime'); //愛媛
+ display('https:weather.tsukumijima.net/api/forecast?city=390010','kouti'); //高知

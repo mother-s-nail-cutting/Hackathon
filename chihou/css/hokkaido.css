@@ -1,12 +1,41 @@
 @charset "utf-8";
-.google1.rain {
+.kita.rain {
   opacity: 0; /*完全透明*/
   display: none; /*要素を削除*/
 }
 
-.google1 {
+.kita {
   opacity: 1; /*不透明*/
 }
+
+.higashi.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.higashi {
+  opacity: 1; /*不透明*/
+}
+
+.minami.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.minami {
+  opacity: 1; /*不透明*/
+}
+
+.chuuou.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.chuuou {
+  opacity: 1; /*不透明*/
+}
+
+
 
 /*背景*/
 body{
