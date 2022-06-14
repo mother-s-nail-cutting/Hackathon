@@ -1,4 +1,4 @@
-function display(URL) {
+function display(URL,place) {
    var request = new XMLHttpRequest();
      request.open('GET', URL, true);
      request.responseType = 'json'
@@ -6,10 +6,11 @@ function display(URL) {
        const date = this.response.forecasts[0].chanceOfRain.T18_24;
        if(date == "0%"||date == "10%"||date == "20%"){
        console.log(date);
-       i++,
        console.log("晴れ：遊び場を全て表示する");
      }
-     else console.log("雨：降水確率20%以下のみ表示する");
+     else {document.getElementById(place).classList.add('rain');
+       console.log("雨：降水確率2１%以上");
+     }
    }
 request.send();
  }

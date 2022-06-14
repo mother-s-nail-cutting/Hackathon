@@ -1,4 +1,4 @@
-ffunction display(URL,place) {
+function display(URL,place) {
    var request = new XMLHttpRequest();
      request.open('GET', URL, true);
      request.responseType = 'json'
@@ -15,7 +15,5 @@ ffunction display(URL,place) {
 request.send();
  }
 
- display('https:weather.tsukumijima.net/api/forecast?city=360010','tokushima'); //徳島
- display('https:weather.tsukumijima.net/api/forecast?city=370010','kagawa'); //香川
- display('https:weather.tsukumijima.net/api/forecast?city=380010','ehime'); //愛媛
- display('https:weather.tsukumijima.net/api/forecast?city=390010','kouti'); //高知
+ display('https:weather.tsukumijima.net/api/forecast?city=471010','shizuoka'); //北部
+ display('https:weather.tsukumijima.net/api/forecast?city=473000','aichi'); //南部
