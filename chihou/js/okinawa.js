@@ -15,5 +15,5 @@ function display(URL,place) {
 request.send();
  }
 
- display('https:weather.tsukumijima.net/api/forecast?city=471010','shizuoka'); //北部
- display('https:weather.tsukumijima.net/api/forecast?city=473000','aichi'); //南部
+ display('https:weather.tsukumijima.net/api/forecast?city=471010','hokubu'); //北部
+ display('https:weather.tsukumijima.net/api/forecast?city=473000','nannbu'); //南部
