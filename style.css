@@ -1,11 +1,17 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
-body {
-  background: linear-gradient(white, black);
+
+body{
+  background: dimgray;
   background-image: url(日本2.jpg);
   background-position: right 4.5% bottom 4%;
   background-repeat: no-repeat;
+  background-size: 40% auto;
+}
+body::after{
+  background: dimgray;
+
   background-size: 40% auto;
 }
 
@@ -46,7 +52,22 @@ body {
 }
 div{
 font-size: 2.0rem;
+
 }
+/* box11{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+box11 p {
+    margin: 0;
+    padding: 0;
+} */
+
+
 
 .topNavigation {
   height: 70px;
@@ -126,8 +147,8 @@ a.btn-svg {
 
   cursor: pointer;
   text-decoration: none;
-
-  background-color: transparent;
+background-color: white;
+  /* background-color: transparent; */
 }
 
 a.btn-svg svg {
