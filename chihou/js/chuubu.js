@@ -22,4 +22,4 @@ request.send();
  display('https:weather.tsukumijima.net/api/forecast?city=200010','nagano'); //長野
  display('https:weather.tsukumijima.net/api/forecast?city=210010','gihu'); //岐阜
  display('https:weather.tsukumijima.net/api/forecast?city=220010','shizuoka'); //静岡
- display('https:weather.tsukumijima.net/api/forecast?city=230010','aiti'); //愛知
+ display('https:weather.tsukumijima.net/api/forecast?city=230010','aichi'); //愛知
