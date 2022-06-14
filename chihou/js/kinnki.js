@@ -3,7 +3,11 @@ function display(URL,place) {
      request.open('GET', URL, true);
      request.responseType = 'json'
      request.onload = function(){
-       const date = this.response.forecasts[0].chanceOfRain.T18_24;
+<<<<<<< HEAD
+       const date = this.response.forecasts[1].chanceOfRain.T18_24;
+=======
+       const date = this.response.forecasts[1].chanceOfRain.T12_18;
+>>>>>>> dcbb372eb85e88d4cb369773a72781edfaa1e5a3
        if(date == "0%"||date == "10%"||date == "20%"){
        console.log(date);
        console.log("晴れ：遊び場を全て表示する");
@@ -17,10 +21,12 @@ request.send();
 
  display('https:weather.tsukumijima.net/api/forecast?city=240010','mie'); //三重
  display('https:weather.tsukumijima.net/api/forecast?city=250010','shiga'); //滋賀
- display('https:weather.tsukumijima.net/api/forecast?city=260010','kyouto'); //京都
- display('https:weather.tsukumijima.net/api/forecast?city=270010','osaka'); //大阪
+ display('https:weather.tsukumijima.net/api/forecast?city=260010','kyoto'); //京都
+ display('https:weather.tsukumijima.net/api/forecast?city=270000','osaka'); //大阪
  display('https:weather.tsukumijima.net/api/forecast?city=280010','hyougo'); //兵庫
  display('https:weather.tsukumijima.net/api/forecast?city=290010','nara'); //奈良
+<<<<<<< HEAD
  display('https:weather.tsukumijima.net/api/forecast?city=300010','wakayama'); //和歌山
- display('https:weather.tsukumijima.net/api/forecast?city=310010','shizuoka'); //静岡
- display('https:weather.tsukumijima.net/api/forecast?city=320010','aiti'); //愛知
+=======
+ display('https:weather.tsukumijima.net/api/forecast?city=300010','wakayama'); //和歌山
+>>>>>>> dcbb372eb85e88d4cb369773a72781edfaa1e5a3

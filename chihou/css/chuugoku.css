@@ -1,4 +1,4 @@
-/*@charset "utf-8";
+/*
 .google1.rain {
   opacity: 0; //完全透明
   display: none; //要素を削除
@@ -8,108 +8,69 @@
   opacity: 1; //不透明
 }*/
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 
-nav {
-  width: 100%;
-  height: 70px;
-  background-color: dimgray;
-  padding-top: 5px;
-  box-sizing: border-box;
-  font-family: "Kokoro";
-}
 
-ul {
-  display: flex;
-  font-family: "Kokoro";
-}
-
-li {
-  list-style: none;
-  font-family: "Kokoro";
-}
 
 a {
   display: block;
   text-decoration: none;
   color: white;
   margin-right: 35px;
-  font-family: "Kokoro";
 }
 
 body {
   background-image: url(../../img/tyuugoku.jpg);
-  /*background-color: rgba(255, 255, 255, 0.1);*/
   background-size: cover;/*画面の大きさに臨機応変に伸び縮み*/
   background-repeat: no-repeat;
   text-align: center;
   margin-top: 10px;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  font-family: "Kokoro";
+
 }
 
-.topNavigation {
-  height: 70px;
+.all{
+  z-index: 10;
+  background-color: rgba(255,255,255,0.6);
+  height:750px;
+  width: 700px;
+  margin: auto;
   text-align: center;
-  background-color: #888;
-  color: #fff;
-  font-family: "Kokoro";
+  border-radius: 10px;
 }
 
-.content {
-  /*background-color: #eee;*/
-  background-image: url(tyuugoku.jpg);
-  background-repeat: no-repeat;
-  text-align: center;
-  margin-top: 10px;
-}
-.bg{
-    height: 100%;
-    /*background-color: rgba(255, 255, 255, 0.1);*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-h1 {
-  color: #0bd;
-  text-align: center;
-  font-family: "Kokoro";
+.urlText{
+  color: black;
+  font-family: 'Zen Maru Gothic', sans-serif;
 }
 
-p {
-  font-size: 20px;
-  text-align: center;
-  font-family: "Kokoro";
+h1{
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+
+  text-shadow: 1px 0px 0px white,
+               0px 1px 0px white,
+               -1px 0px 0px white,
+               0px -1px 0px white,
+               3px 0px 5px rgb(255, 255, 255),
+               0px 3px 5px rgb(255, 255, 255),
+               -3px 0px 5px rgb(255, 255, 255),
+               0px -3px 5px rgb(255, 255, 255); /*影*/
 }
 
-button {
-  color: #0bd;
-  text-align: center;
-  font-family: "Kokoro";
+h2{
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+
+  text-shadow: 1px 0px 0px white,
+               0px 1px 0px white,
+               -1px 0px 0px white,
+               0px -1px 0px white,
+               2px 0px 3px rgb(255, 255, 255),
+               0px 2px 3px rgb(255, 255, 255),
+               -2px 0px 3px rgb(255, 255, 255),
+               0px 2px 3px rgb(255, 255, 255); /*影*/
+
+  
 }
 
-.button {
-  position: relative;
-  z-index: 2;
-  background-color: #fff;
-  border: 2px solid #333;
-  color: #333;
-  line-height: 48px;
-  font-family: "Kokoro";
-}
 
-.button::after {
-  top: 4px;
-  left: 4px;
-  width: 188px;
-  height: 42px;
-  border: 2px solid #333;
-  opacity: 0;
-}
-
-.button:hover::after {
-  opacity: 1;
-}
