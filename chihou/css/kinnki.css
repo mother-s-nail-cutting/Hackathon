@@ -44,7 +44,7 @@
   opacity: 1; /*不透明*/
 }
 
-.ibaragi.nara {
+.nara.rain {
   opacity: 0; /*完全透明*/
   display: none; /*要素を削除*/
 }
