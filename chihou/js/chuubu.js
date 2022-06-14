@@ -18,7 +18,7 @@ request.send();
  display('https:weather.tsukumijima.net/api/forecast?city=160010','toyama'); //富山
  display('https:weather.tsukumijima.net/api/forecast?city=170010','ishikawa'); //石川
  display('https:weather.tsukumijima.net/api/forecast?city=180010','hukui'); //福井
- display('https:weather.tsukumijima.net/api/forecast?city=190010','yamanasi'); //山梨
+ display('https:weather.tsukumijima.net/api/forecast?city=190010','yamanashi'); //山梨
  display('https:weather.tsukumijima.net/api/forecast?city=200010','nagano'); //長野
  display('https:weather.tsukumijima.net/api/forecast?city=210010','gihu'); //岐阜
  display('https:weather.tsukumijima.net/api/forecast?city=220010','shizuoka'); //静岡
