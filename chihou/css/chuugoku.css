@@ -28,6 +28,7 @@ body {
   margin-top: 10px;
   min-height: 100vh;
   display: flex;
+
 }
 
 .all{
@@ -69,4 +70,8 @@ h2{
                0px 2px 3px rgb(255, 255, 255),
                -2px 0px 3px rgb(255, 255, 255),
                0px 2px 3px rgb(255, 255, 255); /*影*/
+
+  
 }
+
+
