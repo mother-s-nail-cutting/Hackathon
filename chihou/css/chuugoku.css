@@ -1,13 +1,49 @@
-/*
-.google1.rain {
-  opacity: 0; //完全透明
-  display: none; //要素を削除
+@charset "UTF-8";
+.tottori.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
 }
 
-.google1 {
-  opacity: 1; //不透明
-}*/
-@charset "UTF-8";
+.tottori {
+  opacity: 1; /*不透明*/
+}
+
+.shimane.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.shimane {
+  opacity: 1; /*不透明*/
+}
+
+.okayama.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.okayama {
+  opacity: 1; /*不透明*/
+}
+
+.hiroshima.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.hiroshima {
+  opacity: 1; /*不透明*/
+}
+
+.yamaguchi.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.yamaguchi {
+  opacity: 1; /*不透明*/
+}
+
 
 
 
