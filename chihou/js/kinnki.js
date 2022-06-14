@@ -3,21 +3,18 @@ function display(URL,place) {
      request.open('GET', URL, true);
      request.responseType = 'json'
      request.onload = function(){
-<<<<<<< HEAD
-       const date = this.response.forecasts[1].chanceOfRain.T18_24;
-=======
        const date = this.response.forecasts[1].chanceOfRain.T12_18;
->>>>>>> dcbb372eb85e88d4cb369773a72781edfaa1e5a3
        if(date == "0%"||date == "10%"||date == "20%"){
        console.log(date);
-       console.log("晴れ：遊び場を全て表示する");
+       console.log("晴れ："+ date);
      }
      else {document.getElementById(place).classList.add('rain');
-       console.log("雨：降水確率2１%以上");
+       console.log("雨が降るかも：" + date);
      }
    }
 request.send();
  }
+
 
  display('https:weather.tsukumijima.net/api/forecast?city=240010','mie'); //三重
  display('https:weather.tsukumijima.net/api/forecast?city=250010','shiga'); //滋賀

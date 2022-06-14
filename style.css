@@ -52,11 +52,9 @@ body {
 }
 div{
 font-size: 2.0rem;
-position:absolute;
-top:200px;
-left:315px;
+
 }
-box11{
+/* box11{
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #5d627b;
@@ -67,7 +65,7 @@ box11{
 box11 p {
     margin: 0;
     padding: 0;
-}
+} */
 
 
 

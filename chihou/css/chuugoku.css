@@ -15,7 +15,7 @@
 a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: red;
   margin-right: 35px;
 }
 
@@ -27,17 +27,6 @@ body {
   margin-top: 10px;
   min-height: 100vh;
   display: flex;
-
-}
-
-.all{
-  z-index: 10;
-  background-color: rgba(255,255,255,0.6);
-  height:750px;
-  width: 700px;
-  margin: auto;
-  text-align: center;
-  border-radius: 10px;
 }
 
 .urlText{
@@ -70,7 +59,5 @@ h2{
                -2px 0px 3px rgb(255, 255, 255),
                0px 2px 3px rgb(255, 255, 255); /*影*/
 
-  
+
 }
-
-
