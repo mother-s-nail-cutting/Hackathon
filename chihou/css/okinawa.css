@@ -14,6 +14,19 @@ body{
   background-attachment: fixed;/*画像をみっちり入れる*/
   background-size: cover;/*画面の大きさに臨機応変に伸び縮み*/
   /*background-color:black;画像が読み込まれる前のカラー*/
+  height: 100%;
+}
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.left-box {
+  left: 0;
+}
+.right-box {
+  right: 0;
+  overflow-y: scroll;
 }
 
 
@@ -34,3 +47,38 @@ h1::before {
   border: none;
   border-bottom: solid 15px transparent;
   border-right: solid 20px rgb(149, 158, 155);
+}
+
+
+.left-box{
+  text-align: center;
+}
+
+.right-box{
+  text-align: center;
+}
+
+p{
+ font-size:3em;
+ text-align:center;
+ line-height:0.95em;
+ font-weight:bold;
+ color: #FFF;
+ text-shadow: 0 0 0.2em rgba(0,0,0,1);
+}
+
+.right-box-u{
+  text-align:center;
+  font-size:1em;
+  line-height:0.95em;
+  font-weight:bold;
+}
+
+a{
+  font-size:2em;
+  text-align:center;
+  line-height:0.95em;
+  font-weight:bold;
+  color: #FFF;
+  text-shadow: 0 0 0.2em rgba(0,0,0,1);
+}
