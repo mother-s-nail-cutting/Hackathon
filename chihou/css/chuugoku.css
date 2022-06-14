@@ -39,8 +39,9 @@ a {
 }
 
 body {
-  background-image: url(tyuugoku.jpg);
+  background-image: url(../../img/tyuugoku.jpg);
   /*background-color: rgba(255, 255, 255, 0.1);*/
+  background-size: cover;/*画面の大きさに臨機応変に伸び縮み*/
   background-repeat: no-repeat;
   text-align: center;
   margin-top: 10px;
