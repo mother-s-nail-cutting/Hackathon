@@ -22,8 +22,4 @@ request.send();
  display('https:weather.tsukumijima.net/api/forecast?city=270000','osaka'); //大阪
  display('https:weather.tsukumijima.net/api/forecast?city=280010','hyougo'); //兵庫
  display('https:weather.tsukumijima.net/api/forecast?city=290010','nara'); //奈良
-<<<<<<< HEAD
  display('https:weather.tsukumijima.net/api/forecast?city=300010','wakayama'); //和歌山
-=======
- display('https:weather.tsukumijima.net/api/forecast?city=300010','wakayama'); //和歌山
->>>>>>> dcbb372eb85e88d4cb369773a72781edfaa1e5a3
