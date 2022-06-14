@@ -1,81 +1,95 @@
 @charset "utf-8";
-.niigata.rain {
+.right-box.rain {
   opacity: 0; /*完全透明*/
   display: none; /*要素を削除*/
 }
 
-.niigata {
+.right-box {
   opacity: 1; /*不透明*/
 }
 
-.toyama.rain {
+
+.left-box.rain {
   opacity: 0; /*完全透明*/
   display: none; /*要素を削除*/
 }
 
-.toyama {
+.left-box {
   opacity: 1; /*不透明*/
 }
 
-.ishikawa.rain {
-  opacity: 0; /*完全透明*/
-  display: none; /*要素を削除*/
+body{
+  background-image: url(../img/中部こんなんしかないやろ.jpg);/*画像ファイルの指定*/
+  background-position : center center;/*どんな画面でも天地左右*/
+  background-attachment: fixed;/*画像をみっちり入れる*/
+  background-size: cover;/*画面の大きさに臨機応変に伸び縮み*/
+  /*background-color:black;画像が読み込まれる前のカラー*/
+  height: 100%;
+}
+.{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.left-box {
+  left: 0;
+}
+.right-box {
+  right: 0;
+  overflow-y: scroll;
 }
 
-.ishikawa {
-  opacity: 1; /*不透明*/
+
+h1{
+  text-align: center;
+  position: relative;
+  padding: 0.5em;
+  background: #a6d3c8;
+  color: white;
 }
 
-.hukui.rain {
-  opacity: 0; /*完全透明*/
-  display: none; /*要素を削除*/
+
+h1::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
 }
 
-.hukui {
-  opacity: 1; /*不透明*/
+
+.left-box{
+  text-align: center;
 }
 
-.yamanashi.rain {
-  opacity: 0; /*完全透明*/
-  display: none; /*要素を削除*/
+.right-box{
+  text-align: center;
 }
 
-.yamanashi {
-  opacity: 1; /*不透明*/
+p{
+ font-size:3em;
+ text-align:center;
+ line-height:0.95em;
+ font-weight:bold;
+ color: #FFF;
+ text-shadow: 0 0 0.3em
+ rgba(0,0,0,1);
 }
 
-.nagano.rain {
-  opacity: 0; /*完全透明*/
-  display: none; /*要素を削除*/
+.right-box-u{
+  text-align:center;
+  font-size:1em;
+  line-height:0.95em;
+  font-weight:bold;
 }
 
-.nagano {
-  opacity: 1; /*不透明*/
-}
-
-.gihu.rain {
-  opacity: 0; /*完全透明*/
-  display: none; /*要素を削除*/
-}
-
-.gihu {
-  opacity: 1; /*不透明*/
-}
-
-.shizuoka.rain {
-  opacity: 0; /*完全透明*/
-  display: none; /*要素を削除*/
-}
-
-.shizuoka {
-  opacity: 1; /*不透明*/
-}
-
-.aichi.rain {
-  opacity: 0; /*完全透明*/
-  display: none; /*要素を削除*/
-}
-
-.aichi {
-  opacity: 1; /*不透明*/
+a{
+  font-size:2em;
+  text-align:center;
+  line-height:0.95em;
+  font-weight:bold;
+  color: #FFF;
+  text-shadow: 0 0 0.2em rgba(0,0,0,1);
 }
