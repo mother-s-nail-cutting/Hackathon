@@ -3,7 +3,7 @@ ffunction display(URL,place) {
      request.open('GET', URL, true);
      request.responseType = 'json'
      request.onload = function(){
-       const date = this.response.forecasts[0].chanceOfRain.T18_24;
+       const date = this.response.forecasts[1].chanceOfRain.T12_18;
        if(date == "0%"||date == "10%"||date == "20%"){
        console.log(date);
        console.log("晴れ：遊び場を全て表示する");
