@@ -9,7 +9,7 @@ function display(URL,place) {
        console.log("晴れ："+ date);
      }
      else {document.getElementById(place).classList.add('rain');
-       console.log("雨が降るかも：" + date);
+       console.log("雨が降るかも：降水確率" + date);
      }
    }
 request.send();
