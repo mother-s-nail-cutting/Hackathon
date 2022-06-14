@@ -1,18 +1,20 @@
-function display(URL) {
+function display(URL,place) {
    var request = new XMLHttpRequest();
      request.open('GET', URL, true);
      request.responseType = 'json'
      request.onload = function(){
-       const date = this.response.forecasts[0].chanceOfRain.T18_24;
+       const date = this.response.forecasts[1].chanceOfRain.T12_18;
        if(date == "0%"||date == "10%"||date == "20%"){
        console.log(date);
-       i++,
-       console.log("晴れ：遊び場を全て表示する");
+       console.log("晴れ："+ date);
      }
-     else console.log("雨：降水確率20%以下のみ表示する");
+     else {document.getElementById(place).classList.add('rain');
+       console.log("雨が降るかも：" + date);
+     }
    }
 request.send();
  }
+
 
  display('https:weather.tsukumijima.net/api/forecast?city=360010','tokushima'); //徳島
  display('https:weather.tsukumijima.net/api/forecast?city=370010','kagawa'); //香川

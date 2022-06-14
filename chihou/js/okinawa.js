@@ -16,9 +16,5 @@ request.send();
  }
 
 
-display('https:weather.tsukumijima.net/api/forecast?city=020010','aomori'); //青森
-display('https:weather.tsukumijima.net/api/forecast?city=030010','iwate'); //岩手
-display('https:weather.tsukumijima.net/api/forecast?city=040010','miyagi'); //宮城
-display('https:weather.tsukumijima.net/api/forecast?city=050010','akita'); //秋田
-display('https:weather.tsukumijima.net/api/forecast?city=060010','yamagata'); //山形
-display('https:weather.tsukumijima.net/api/forecast?city=070010','hukushima'); //福島
+ display('https:weather.tsukumijima.net/api/forecast?city=471010','hokubu'); //北部
+ display('https:weather.tsukumijima.net/api/forecast?city=473000','nannbu'); //南部

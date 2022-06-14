@@ -1,9 +1,81 @@
 @charset "utf-8";
-.google1.rain {
+.niigata.rain {
   opacity: 0; /*完全透明*/
   display: none; /*要素を削除*/
 }
 
-.google1 {
+.niigata {
+  opacity: 1; /*不透明*/
+}
+
+.toyama.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.toyama {
+  opacity: 1; /*不透明*/
+}
+
+.ishikawa.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.ishikawa {
+  opacity: 1; /*不透明*/
+}
+
+.hukui.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.hukui {
+  opacity: 1; /*不透明*/
+}
+
+.yamanashi.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.yamanashi {
+  opacity: 1; /*不透明*/
+}
+
+.nagano.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.nagano {
+  opacity: 1; /*不透明*/
+}
+
+.gihu.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.gihu {
+  opacity: 1; /*不透明*/
+}
+
+.shizuoka.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.shizuoka {
+  opacity: 1; /*不透明*/
+}
+
+.aichi.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.aichi {
   opacity: 1; /*不透明*/
 }
