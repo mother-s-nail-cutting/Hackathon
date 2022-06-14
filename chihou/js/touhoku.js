@@ -8,13 +8,13 @@ function display(URL,place) {
        console.log(date);
        console.log("晴れ："+ date);
      }
-     else {document.getElementById(place).classList.add('rain');
-       console.log("雨が降るかも：" + date);
+     else {
+       document.getElementById(place).classList.add('rain');
+       console.log("雨が降るかも：降水確率" + date);
      }
    }
 request.send();
  }
-
 
 display('https:weather.tsukumijima.net/api/forecast?city=020010','aomori'); //青森
 display('https:weather.tsukumijima.net/api/forecast?city=030010','iwate'); //岩手
