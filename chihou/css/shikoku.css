@@ -1,9 +1,88 @@
 @charset "utf-8";
-.google1.rain {
+.tokushima.rain {
   opacity: 0; /*完全透明*/
   display: none; /*要素を削除*/
 }
 
-.google1 {
+.tokushima {
   opacity: 1; /*不透明*/
+}
+
+.kagawa.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.kagawa {
+  opacity: 1; /*不透明*/
+}
+
+.ehime.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.ehime {
+  opacity: 1; /*不透明*/
+}
+
+.kouti.rain {
+  opacity: 0; /*完全透明*/
+  display: none; /*要素を削除*/
+}
+
+.kouti {
+  opacity: 1; /*不透明*/
+}
+
+
+
+/*背景*/
+body{
+  background-image: url(../../img/sikoku2.jpg);/*画像ファイルの指定*/
+  background-position : center center;/*どんな画面でも天地左右*/
+  background-attachment: fixed;/*画像をみっちり入れる*/
+  background-size: cover;/*画面の大きさに臨機応変に伸び縮み*/
+  background-color:black;/*画像が読み込まれる前のカラー*/
+}
+
+.all{
+  z-index: 10;
+  background-color: rgba(255,255,255,0.6);
+  height:750px;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.urlText{
+  color: black;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+h1{
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+
+  text-shadow: 1px 0px 0px white,
+               0px 1px 0px white,
+               -1px 0px 0px white,
+               0px -1px 0px white,
+               3px 0px 5px rgb(255, 255, 255),
+               0px 3px 5px rgb(255, 255, 255),
+               -3px 0px 5px rgb(255, 255, 255),
+               0px -3px 5px rgb(255, 255, 255); /*影*/
+}
+
+h2{
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+
+  text-shadow: 1px 0px 0px white,
+               0px 1px 0px white,
+               -1px 0px 0px white,
+               0px -1px 0px white,
+               2px 0px 3px rgb(255, 255, 255),
+               0px 2px 3px rgb(255, 255, 255),
+               -2px 0px 3px rgb(255, 255, 255),
+               0px 2px 3px rgb(255, 255, 255); /*影*/
 }
